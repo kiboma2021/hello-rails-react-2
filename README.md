@@ -1,24 +1,46 @@
-# README
+# Hello rails + react
+An app to test how to create a rails + react application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With:
 
-Things you may want to cover:
+- Ruby & Rails
+- React & Redux
 
-* Ruby version
+### Setup
 
-* System dependencies
+Follow these steps on your console to properly clone this repository on your desktop:
 
-* Configuration
+```
+$ cd desktop
+$ git clone 'repo_path'
+$ cd 'repo_name'
+$ code .
+Run 'ruby file_name' to see outputs in the console.
+Run 'rubocop' to check linter offenses.
+```
 
-* Database creation
+Create database for the project with `bin/rails db:create`, otherwise create databases manually in PostgreSQL.
 
-* Database initialization
+Install all gems `bundle install`
 
-* How to run the test suite
+Set up RSpec in your app and create the Spec folder `rails g rspec:install`
 
-* Services (job queues, cache servers, search engines, etc.)
+Run the migration into your testing environment `rails db:migrate RAILS_ENV=test`
 
-* Deployment instructions
+To see all tests with description run `rspec spec --format documentation`
 
-* ...
+## Author:
+
+👤 **Ben Kiboma**
+
+- GitHub: [@kiboma2021](https://github.com/kiboma2021)
+- Twitter: [@BenOmayio](https://twitter.com/omayiobenj)
+- LinkedIn: [@BenOmayio](https://www.linkedin.com/in/ben-kiboma/)
+
+## :star2: Show your support
+
+Give a :star: if you like my project!
+
+## :pencil: License
+
+This project is [MIT](https://github.com/Gopxfs/hello-rails-react/blob/dev/LICENSE) licensed.
