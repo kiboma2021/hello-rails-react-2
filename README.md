@@ -85,13 +85,12 @@ Follow these steps on your console to properly clone this repository on your des
 
 ```
 $ cd desktop
-$ git clone 'repo_path'
-$ cd 'repo_name'
+$ git clone https://github.com/kiboma2021/hello-rails-react.git
+$ cd hello-rails-react
 $ code .
-Run 'ruby file_name' to see outputs in the console.
+Run hello-rails-react to see outputs in the console.
 Run 'rubocop' to check linter offenses.
 ```
-
 
 
 ### Prerequisites
